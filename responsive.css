@@ -1,0 +1,151 @@
+
+@media screen and (max-width:425px){
+    
+    .header-wrapper,{
+       flex-direction: column;
+    }
+    .logo-wrapper {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+    
+    .nav-wrapper {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .nav-wrapper a {
+        margin-bottom: 15px;
+    }
+    
+    .logo-wrapper {
+        margin-left: 50px;
+    }
+    .header-banner-wrapper{
+        flex-direction: column;
+    }
+    .header-banner-right{
+        width: 100%
+    }
+    .header-banner-left{
+        width: 100%;
+    }
+    .feature-part {
+        flex-direction: column;
+    }
+    
+    .game-feature-section {
+        display: grid;
+        grid-template-columns: repeat(3,5fr);
+        align-items: center;
+    }
+    }
+    
+@media screen and (max-width:768px) {
+   
+    .logo-wrapper{
+        width: 20%;
+    }
+
+    
+.logo-wrapper img{
+    width: 50px;
+    object-fit:cover;
+    margin-right: 10px;
+}
+    
+.nav-wrapper{
+    
+width: 80%;
+    
+margin-left: 60px;
+}
+.play-section-wrapper {
+    width: 800px;
+}
+
+.play-left {
+    width: 32%;
+}
+
+.play-right {
+    width: 50%;
+}
+
+.play-section-wrapper {
+    flex-direction: column;
+}
+
+.play-left {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 10px;
+}
+
+.play-right {
+    width: 50%;
+    margin: 0 auto;
+}
+}
+
+@media screen and (max-width:1024px) {
+    .header-banner-right{
+        width: 35%
+    }
+    .header-banner-left{
+        width: 30%;
+    }
+    .online-game-section {
+        max-width: 930px;
+    }
+    .play-section-wrapper {
+        width: 800px;
+    }
+    
+    .play-left {
+        width: 32%;
+    }
+    
+    .play-right {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width:1440px) {
+    .header-wrapper{
+        max-width: 900px;
+    }
+    .logo-wrapper{
+        width: 20%;
+    }
+
+    
+.logo-wrapper img{
+    width: 50px;
+    object-fit:cover;
+    margin-right: 10px;
+}
+    
+.nav-wrapper{
+    
+width: 80%;
+    
+margin-left: 60px;
+}
+.online-game-section {
+    width: 1129px;
+}
+
+figcaption {
+    line-height: 1.5;
+}
+.play-section-wrapper {
+    width: 1000px;
+}
+    
+}
